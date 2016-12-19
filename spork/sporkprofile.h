@@ -103,8 +103,7 @@ void FindNearbyBusinesses(SporkProfile sporkProfiles[], int numProfiles, double 
 * equal to minRating, and false otherwise.
 *
 */
-void FindGoodBusinesses(SporkProfile sporkProfiles[], int numProfiles,
-	double minRating);
+void FindGoodBusinesses(SporkProfile sporkProfiles[], int numProfiles, double minRating);
 
 /**************************************************************************************************/
 

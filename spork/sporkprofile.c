@@ -27,7 +27,7 @@ int ReadSporkDataFromFile(SporkProfile sporkProfiles[], int maxProfiles, char *f
 
 
 	if (fileName == NULL){
-		printf("Error opening file %c\n", fileName);
+		printf("Error opening file %s\n", fileName);
 		return -1;
 	}
 
